@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+import java.math.BigInteger;
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scan = new Scanner(System.in);
+        BigInteger S1 = new BigInteger(scan.next());
+        BigInteger S2 = new BigInteger(scan.next());
+        System.out.println(S1.add(S2));
+        System.out.println(S1.multiply(S2));
+    
+        
+    }
+}
